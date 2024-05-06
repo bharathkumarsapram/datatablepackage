@@ -1,0 +1,69 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "baseUrl": ".",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "paths": {
+      "@components/*": [
+        "./src/components/*"
+      ],
+      "@views/*": [
+        "./src/views/*"
+      ],
+      "@framework/*": [
+        "./src/framework/*"
+      ],
+      "@config/*": [
+        "./src/config/*"
+      ],
+      "@utils/*": [
+        "./src/utils/*"
+      ],
+      "@layout/*": [
+        "./src/layout/*"
+      ],
+      "@type/*": [
+        "src/type/*"
+      ],
+      "@services/*": [
+        "./src/services/*"
+      ],
+      "@src/*": [
+        "./src/*"
+      ],
+      "@assets/*": [
+        "./src/assets/*"
+      ]
+    },
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "react",
+    "rootDir": "./src",
+    "outDir": "dist",
+    "sourceMap": true,
+    "importHelpers": true,
+    "declaration": true, 
+    "emitDeclarationOnly": true,
+
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
